@@ -59,6 +59,8 @@ public class TestProject implements ActionListener {
                 System.out.println("發生碰撞,停止");
                 timer.stop();
 
+
+
             }
 
         }
