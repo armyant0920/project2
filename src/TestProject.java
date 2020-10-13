@@ -34,14 +34,10 @@ public class TestProject implements ActionListener {
 
         while (timer.isRunning()){
 
-
         }
+
         if(collision)
             System.out.printf("碰撞?%b\n",collision);
-
-
-
-
 
     }
 

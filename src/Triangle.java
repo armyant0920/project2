@@ -18,19 +18,13 @@ public class Triangle {
                         current++;
                     }
 
-
                 }
-
-
                 System.out.println(layer);
             } else {
 
                 System.out.println("輸入不正確");
             }
-
-
         }
-
 
     }
 
@@ -39,16 +33,17 @@ public class Triangle {
         int mid = layer;
         for (int i = 0; i < mid - current; i++) {
             System.out.print(" ");
-
         }
         for (int j = 0; j < current * 2 - 1; j++) {
             System.out.print("*");
-
         }
         System.out.println();
 
 
     }
+
+
+
 
 
 

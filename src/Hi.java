@@ -12,7 +12,7 @@ public class Hi {
         diamond.printLine(3);
 
         diamond.printLine(6);
-        diamond.setLayer(101);
+        diamond.setLayer(21);
         diamond.printAll();
 
 
