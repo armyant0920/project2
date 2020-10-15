@@ -1,4 +1,5 @@
-
+import java.awt.*;
+import java.util.Scanner;
 
 public class Hi {
 
@@ -14,6 +15,12 @@ public class Hi {
         diamond.printLine(6);
         diamond.setLayer(21);
         diamond.printAll();
+        System.out.println("input url");
+        Scanner sc=new Scanner(System.in);
+
+        DesktopTool.openUrl(sc.next());
+        DesktopTool.openFile();
+
 
 
 
