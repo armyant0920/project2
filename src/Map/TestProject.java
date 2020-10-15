@@ -1,8 +1,9 @@
+package Map;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Random;
 
 public class TestProject implements ActionListener {
     /*    static int angle1, angle2;
